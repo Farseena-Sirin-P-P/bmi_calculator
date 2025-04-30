@@ -8,7 +8,7 @@ class Calculator {
   late double _bmi;
 
   String calculateBMI() {
-    _bmi = weight / pow(weight / 100, 2);
+    _bmi = weight / pow(height / 100, 2);
 
     return _bmi.toStringAsFixed(1);
   }
